@@ -3,6 +3,7 @@
 <h3>Funcionalidades do Sistema JFHELP</h3>
 <p>Descrever aqui as funcionalidades</p>
 
+* * *
 
 <h2>Telas do Sistema JFHELP</h2>
 <h3>Tela de login</h3>
