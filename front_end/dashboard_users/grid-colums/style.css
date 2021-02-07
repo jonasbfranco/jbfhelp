@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------
+# Geral
+--------------------------------------------------------------*/
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 10vh 85vh 5vh;
+
+}
+
+header {
+    background-color: yellow;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+main {
+    background-color: blue;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+aside {
+    background-color: orange;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+footer {
+    background-color: green;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
