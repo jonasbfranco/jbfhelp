@@ -51,15 +51,24 @@ body {
 }
 
 .container__nav {
-    background-color: cadetblue;
+    background-color: var(--first-color);
     top: 0;
     max-width: 260px;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid #ccc;
+    z-index: 1;
 }
 
 .profile__nav {
-    background-color: coral;
     max-width: 260px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .profile__nav p {
@@ -67,19 +76,50 @@ body {
     color: var(--white-color);
     font-size: 1.5rem;
     font-weight: 700;
+    margin: 0 0 10px 0;
 }
 
 .profile__nav img {
     border-radius: 50%;
     max-width: 100px;
     max-height: 100px;
+    padding: 20px 0 20px 0;
 }
 
-.ul__nav {
-    background-color: darkkhaki;
+/* .ul__nav {
+    text-decoration: none;
+} */
+
+.ul__nav li {
+    list-style: none;
+}
+
+.nav__name {
+    padding-left: 10px;
+}
+
+.nav__icon {
+    /* color: var(--first-color-light); */
+    font-size: 1.3rem;
+}
+
+/* .ul__nav a {
+     text-decoration: none;
+     
+ } */
+
+ .nav__link {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: var(--first-color-light);
+    /* text-transform: uppercase; */
 }
 
 .logof__nav {
-    background-color: dodgerblue;
+    color: var(--first-color-light);
+    margin-bottom: 1.5rem;
+    padding-left: 40px;
+    transition: .3s;
 }
+
 
